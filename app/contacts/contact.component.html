@@ -2,7 +2,29 @@
 <h1>{{title}}</h1>
 </div>
 
-<form>
-    <input />
-    <input />
-</form>    
+<form #myForm="ngForm" (ngSubmit)="onSubmit()">    
+    <div>
+        <input type="text" 
+        id="fullName" 
+        placeholder="Full Name" 
+        ngControl="fullName"        
+        required 
+        
+         />
+    </div>
+    <div>
+        <input type="text" 
+        id="email" 
+        placeholder="Email" 
+        ngControl="email"
+        required 
+        
+        />
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>        
+    
+    
+    

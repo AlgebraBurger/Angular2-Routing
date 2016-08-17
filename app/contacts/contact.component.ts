@@ -5,6 +5,8 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   title = 'Contact';
-  
+  onSubmit(){
+      alert("xxxx");
+  }
 }
 

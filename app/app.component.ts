@@ -5,7 +5,7 @@ import { Employee } from './employee';
   templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
-  title = 'AngularJs2!...';
+  title = '...';
   employees = Employees;
 }
 

@@ -13,6 +13,9 @@ var ContactComponent = (function () {
     function ContactComponent() {
         this.title = 'Contact';
     }
+    ContactComponent.prototype.onSubmit = function () {
+        alert("xxxx");
+    };
     ContactComponent = __decorate([
         core_1.Component({
             templateUrl: 'app/contacts/contact.component.html'
