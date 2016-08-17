@@ -5,8 +5,17 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   title = 'Contact';
-  onSubmit(){
-      alert("xxxx");
+  contact:Contact = {
+      fullName: "Julius",
+      email: "juliusbacosa@gmail.com"    
   }
+  onSubmit(){
+      alert("xxx");
+  }
+}
+
+export class Contact{
+    fullName:string;
+    email:string;    
 }
 

@@ -12,9 +12,13 @@ var core_1 = require('@angular/core');
 var ContactComponent = (function () {
     function ContactComponent() {
         this.title = 'Contact';
+        this.contact = {
+            fullName: "Julius",
+            email: "juliusbacosa@gmail.com"
+        };
     }
     ContactComponent.prototype.onSubmit = function () {
-        alert("xxxx");
+        alert("xxx");
     };
     ContactComponent = __decorate([
         core_1.Component({
@@ -25,4 +29,10 @@ var ContactComponent = (function () {
     return ContactComponent;
 }());
 exports.ContactComponent = ContactComponent;
+var Contact = (function () {
+    function Contact() {
+    }
+    return Contact;
+}());
+exports.Contact = Contact;
 //# sourceMappingURL=contact.component.js.map
